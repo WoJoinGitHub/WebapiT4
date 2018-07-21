@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="51d8ad2b15d94f7cb3798cfc9ba4a61c" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.ADMIN" Width="1.5" PointX="7.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BACKSALE" Width="1.5" PointX="9.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL" Width="1.5" PointX="5.25" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_ACADEMIC" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_DATA" Width="1.5" PointX="7.5" PointY="55" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_DATA_COUNT" Width="1.5" PointX="9.75" PointY="55" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_DATA_DETAIL" Width="1.5" PointX="12.75" PointY="54" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_DIED" Width="1.5" PointX="5.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_EMERGENCYMEDICAL" Width="1.5" PointX="11.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_EMERGENCYOTHER" Width="1.5" PointX="13.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_HACCOMPANY" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_HBACK" Width="1.5" PointX="5.25" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_HBURIAL" Width="1.5" PointX="5.25" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_HCHANGE" Width="1.5" PointX="5.25" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_HMEDIA" Width="1.5" PointX="5.25" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_HVISIT" Width="1.5" PointX="5.25" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_INJURE" Width="1.5" PointX="5.25" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_LOSE" Width="1.5" PointX="5.25" PointY="51.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_OTHER" Width="1.5" PointX="5.25" PointY="63.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BILL_TRAVELDELAY" Width="1.5" PointX="5.25" PointY="68.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BROKERAGE" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.COMPANYBROKERAGE" Width="1.5" PointX="14.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.COMPANYMONEY" Width="1.5" PointX="13.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CUSTOM" Width="1.5" PointX="7.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DOCTOR" Width="1.5" PointX="15.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DUTYITEM" Width="1.5" PointX="7.5" PointY="49.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FAVOREE" Width="1.5" PointX="12.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.HOSPITAL" Width="1.5" PointX="9.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.INTEREST_ORDER" Width="1.5" PointX="7.5" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.INTEREST_ORDEROTHER" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.INTEREST_PRODUCE" Width="1.5" PointX="10.5" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.INTEREST_PRODUCEOTHER" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.IO_DUTY" Width="1.5" PointX="9.75" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.IO_ITEM" Width="1.5" PointX="15" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.IO_OTHER_ITEM" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.IP_DUTY" Width="1.5" PointX="12.75" PointY="50.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.IP_ITEM" Width="1.5" PointX="18" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.IPOTHER_ITEM" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ORGANIZATION" Width="1.5" PointX="15.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PHARMACY" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PRODUCE" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.QUESTION" Width="1.5" PointX="7.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RECOMMENDHOSPITAL" Width="1.5" PointX="16.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RECORD" Width="1.5" PointX="17.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RELATIONPEOPLE" Width="1.5" PointX="12.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.REPORTINFORMATION" Width="1.5" PointX="0.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RESULT" Width="1.5" PointX="7.5" PointY="58.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RESULT_DUTY" Width="1.5" PointX="9.75" PointY="59.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RESULT_ITEM" Width="1.5" PointX="12" PointY="60.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RESULT_OTHER" Width="1.5" PointX="17.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_ACADEMIC" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_DIED" Width="1.5" PointX="3" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_HACCOMPANY" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_HBACK" Width="1.5" PointX="3" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_HBURIAL" Width="1.5" PointX="3" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_HCHANGE" Width="1.5" PointX="3" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_HMEDIA" Width="1.5" PointX="3" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_HVISIT" Width="1.5" PointX="3" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_INJURE" Width="1.5" PointX="3" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_LOSE" Width="1.5" PointX="3" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_MEDICAL" Width="1.5" PointX="3" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_OTHER" Width="1.5" PointX="3" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RI_TRAVELDELAY" Width="1.5" PointX="3" PointY="68.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SALESDETAIL" Width="1.5" PointX="10" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SAMU" Width="1.5" PointX="17.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SCHOOL" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SCHOOL_MEDICALRESOURCE" Width="1.5" PointX="18.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.BILL_DATAF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILLF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RESULTF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_ACADEMICF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_DATA_COUNTF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_DATA_DETAILF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RESULT_DUTYF2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_DATA_COUNT3" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_DATA_COUNTF2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_DATA_DETAILF2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_DATA_DETAILF3" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_DIEDF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_HACCOMPANYF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_HBACKF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_HBURIALF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_HCHANGEF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_HMEDIAF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_HVISITF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_INJUREF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_LOSEF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_OTHERF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.BILL_TRAVELDELAYF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.IO_DUTYF2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.IO_ITEMF2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.IP_DUTYF2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.IP_ITEMF2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RESULT_ITEMF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RESULT_ITEMF2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FAVOREEKEYF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.IO_DUTYF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.IO_OTHER_ITEM1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.IP_DUTYF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.IPTHER_ITEMF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.IO_ITEMF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.IP_ITEMF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SALEDETAILF3" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RELATIONPEOPLEKEYF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.F" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_ACADEMICF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_DIEDF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_HACCOMPANYF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_HBACKF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_HBURIALF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_HCHANGEF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_HMEDIAF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_HVISITF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_INJUREF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_LOSEF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_OTHERF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RI_TRAVELDELAYF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RESULT_DUTYF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.RESULT_ITEMF3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

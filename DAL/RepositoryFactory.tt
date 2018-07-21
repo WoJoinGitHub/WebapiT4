@@ -1,0 +1,38 @@
+﻿<#@ template debug="true" hostSpecific="true" #>
+<#@ output extension=".cs" #>
+<#@ Assembly Name="System.Core" #>
+<#@ Assembly Name="System.Windows.Forms" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #> 
+<#@ include file="$(SolutionDir)T4Libary/DateConnection.tt" #>
+using IDAL;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace DAL
+{
+    public static class RepositoryFactory
+    {
+	<#
+    List<string> List=MsSqlGetAllTableName();	
+    foreach(string item  in List)
+	{
+    #>
+        public static I<#= item #>Repository <#= item #>Repository
+         {
+            get
+            {
+                return new <#= item #>Repository();
+            }
+         }
+    <#
+    }
+    #> 
+    }
+}
+ 

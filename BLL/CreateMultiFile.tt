@@ -1,0 +1,37 @@
+﻿<#@ output extension="txt" #>
+<#@ include file="$(SolutionDir)/T4Libary/MultiOutput.tt" #>
+<#@ include file="$(SolutionDir)/T4Libary/DateConnection.tt" #>
+<#
+List<string> List=MsSqlGetAllTableName();	
+
+    foreach(string item  in List){	
+#>
+//------------------------------------------------------------------------------
+//     此代码由T4模板自动生成
+//       生成时间 <#=DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")#> by ShiJun Liu
+//     对此文件的更改可能会导致不正确的行为，并且如果重新生成代码，这些更改将会丢失。
+//     如需更改 请使用部分类
+//------------------------------------------------------------------------------
+using DAL;
+using IBLL;
+using Model;
+using System;
+using System.Linq.Expressions;
+namespace BLL
+{
+
+    public partial class  <#=item #>Service:BaseService<<#=item #>>,I<#=item #>Service
+    {
+        public  <#=item #>Service() : base(RepositoryFactory.<#=item #>Repository)
+        {
+
+        }
+       
+    }
+   
+}
+ <# SaveOutput(item+"Service.cs"); #>
+<#
+}
+DeleteOldOutputs();
+#>

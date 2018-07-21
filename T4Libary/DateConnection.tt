@@ -1,0 +1,52 @@
+﻿<#@ template language="C#"  hostspecific="True" #>  
+<#@ assembly name="System.Data" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Data" #>
+<#@ import namespace="System.Data.OleDb" #>
+<#@ import namespace="System.Collections.Generic"#>
+
+<#@ import namespace="System.Data.SqlClient" #>
+<#@ import namespace="System.Data" #>
+<#+     
+     //Oracle 获取表名
+      List<string> OracleGetAllTableName()
+        {	              	
+            string connString = "Provider=OraOLEDB.Oracle.1;User ID=SAMCESHI2;Password=SAMCESHI2;Data Source=(DESCRIPTION = (ADDRESS_LIST= (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.10.201)(PORT = 1521))) (CONNECT_DATA = (SERVICE_NAME = test)))";
+            string sql = "SELECT * FROM USER_TABLES";
+			using (OleDbConnection conn = new OleDbConnection(connString))
+            {
+                conn.Open();
+                using (OleDbCommand command = new OleDbCommand(sql, conn))
+                {
+                    DataTable dt = new DataTable();                  
+                    OleDbDataAdapter adapter = new OleDbDataAdapter(command);
+                    adapter.Fill(dt);
+					List<string> list=new List<string>();
+					foreach(DataRow row in dt.Rows)
+                    {
+					  list.Add(row["TABLE_NAME"].ToString());               
+                    }
+                    return list;  
+                }
+            }
+        }	
+		//sqlserver 获取表名
+		 List<string> MsSqlGetAllTableName()
+        {	
+			string connectionString = "server=116.255.137.75;Database=GitHub;uid=test;pwd=123456;";     
+			using(SqlConnection conn = new SqlConnection(connectionString))
+			{
+				 conn.Open();
+				 DataTable schema = conn.GetSchema("TABLES");
+                 List<string> list=new List<string>();
+				 foreach(DataRow row in schema.Rows)
+                  {
+				    list.Add(row["TABLE_NAME"].ToString());               
+                  }
+                  return list;                 
+            }
+        }
+#>

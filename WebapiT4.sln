@@ -13,11 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{E5DB29BA-4F91-4478-88CF-6AD43253BCD6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A30B01F-8B6D-4B9D-ACA9-B346A3F2E4BC}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{B762E9C2-6D6C-4F0F-9A9C-C47997C56D6C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{4D63078D-E1AE-43EB-B580-50A90E9C6060}"

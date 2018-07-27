@@ -1,5 +1,3 @@
-# WebapiT4
-一个使用T4模板生产的 基于依赖注入的三层webapi项目
 # 项目概况
 项目分为 后端asp.net webapi 和前端 vue单页面应用
 ## 后端 webapi的计划为：
